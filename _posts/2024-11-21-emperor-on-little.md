@@ -3,7 +3,7 @@ title: How to live like an Emperor on little
 author: 
 date: 2024-11-20 00:34:00 +0800
 categories: [Blogging]
-tags: [favicon]
+tags: []
 ---
 
   - Avoid long commutes to work.
