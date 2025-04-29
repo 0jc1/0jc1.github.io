@@ -10,7 +10,11 @@ Obama recently commented on the rapid progression of AI, stating: “We’re now
 
 While AI is revolutionizing, SWEs won’t be replaced anytime soon due to architectural limitations. One major problem with models is context. Context is the information that a model knows in a conversation. Large enterprise codebases often span millions of lines of code. Assuming an average of 5 tokens per line, a model would need a 5 million token context window to fully read a codebase. This is far beyond the 200k token limit of Claude 3.5 Sonnet. Even with techniques like hierarchical chunking, performance degrades as context expands: perplexity (a measure of model confidence) drops, and computational costs scale quadratically with context length.
 
-Retrieval-Augmented Generation (RAG) helps fix this by allowing information to be retrieved from data sources. But LLMs still struggle autonomously solving tasks with long inferential distances. For example, AI agents like Claude 3.7 playing Pokémon frequently get stuck in a loop; it’s not even comparable to a human player. 
+![2b065bd2615efdcf86e6737bcf6ad605a8fe187a-610x544](https://github.com/user-attachments/assets/8a8b5852-f061-4076-bc67-84bcd01d97d9)
+
+Retrieval-Augmented Generation (RAG) helps fix this by allowing information to be retrieved from data sources. But LLMs still struggle autonomously solving tasks with long inferential distances, such as beating a video game or writing a big piece of software. For example, AI agents like Claude 3.7 playing Pokémon frequently get stuck in a loop or fails to adapt to edge cases; it’s not even comparable to a human player. 
+
+![2025-04-29_14-09](https://github.com/user-attachments/assets/79ac7e6b-9593-449a-907b-7e565c5c8f36)
 
 AI progress is undeniable and research interest in AI is skyrocketing. Research labs like DeepMind, OpenAI, and Anthropic are pushing boundaries of model capabilities. Once models are able to solve novel problems that take a team of researchers years, then we may need to be worried. Until then, claims of SWE job displacement are premature. 
 
