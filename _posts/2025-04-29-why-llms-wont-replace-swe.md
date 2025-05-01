@@ -16,7 +16,7 @@ Retrieval-Augmented Generation (RAG) helps fix this by allowing information to b
 
 ![2025-04-29_14-09](https://github.com/user-attachments/assets/79ac7e6b-9593-449a-907b-7e565c5c8f36)
 
-LLMs are great tools for coding, but they currently cannot fully replace any coder. In a recent project in C, I encountered a confusing bug and Claude failed to fix it. It got stuck in a negative feedback loop where it kept creating more bugs. I think in general, LLMs are terrible with low-level programming. Even when it does write a working program, it creates technical debt and unoptimized code. But for high level programming (like in JS, Python, and Lua) and web development, LLMs can really shine.  
+LLMs are great tools for coding, but they cannot fully replace any coder for the reasons above. In a recent project in C, I encountered a confusing bug and Claude failed to fix it. It got stuck in a negative feedback loop and it kept creating more bugs and hallucinating. Generally speaking, LLMs are terrible with low-level programming in C and Rust. Even when it does write a working program, it creates technical debt and unoptimized code. But for high level programming (like in JS and Python) and frontend development, LLMs can really shine.  
 
 AI progress is undeniable and AI research interest is skyrocketing. Research labs like DeepMind, OpenAI, and Anthropic are pushing boundaries of model capabilities. Once AI models can independently solve novel, complex problems that would take years of effort from researchers, we should be deeply concerned. Until then, claims of SWE job displacement are premature. 
 
