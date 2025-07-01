@@ -1,5 +1,5 @@
 ---
-title: Why LLMs Won't Replace SWE
+title: Why LLMs Won't Replace Software Engineers
 author: 
 date: 2025-04-29 00:34:00 +0800
 categories: [AI]
