@@ -12,7 +12,7 @@ SWEs won’t be completely replaced anytime soon due to architectural limitation
 
 ![2b065bd2615efdcf86e6737bcf6ad605a8fe187a-610x544](https://github.com/user-attachments/assets/8a8b5852-f061-4076-bc67-84bcd01d97d9)
 
-Retrieval-Augmented Generation (RAG) helps fix this by allowing information to be retrieved from data sources. But LLMs still struggle to autonomously solve tasks with long inferential distances, such as beating a video game or writing a big piece of software. For example, AI agents like Claude 3.7 playing Pokémon frequently get stuck in a loop or fails to adapt to edge cases; it’s not even comparable to a human player. 
+Retrieval-Augmented Generation (RAG) helps fix this by allowing information to be retrieved from data sources. But LLMs still struggle to autonomously solve tasks with long inferential distances, such as beating a video game or writing a big piece of software. For example, AI agents like Claude 3.7 playing Pokémon frequently get stuck in a loop or fails to adapt to edge cases; it’s not even comparable to a human player. The reason why is because LLMs have a weak working memory or temporal reference. LLMs can’t remember past decisions, keep track of the goal, or update goals dynamically. It’s possible to use an AI agent to keep it on task or use documents for explicit goal planning.
 
 EDIT: Anthropic recently introduced the next generation of Claude models. Claude Opus 4 is the world’s best coding model, with sustained performance on complex, long-running tasks and agent workflows. It still has the same token limit of 200k.
 
